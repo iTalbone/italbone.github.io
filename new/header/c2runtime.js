@@ -18897,8 +18897,8 @@ cr.behaviors.Physics = function(runtime)
 	behaviorProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Sprite,
 	cr.plugins_.Mouse,
+	cr.plugins_.Sprite,
 	cr.behaviors.Physics,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.behaviors.Physics.prototype.acts.SetImmovable,
